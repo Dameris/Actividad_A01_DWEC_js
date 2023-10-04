@@ -4,7 +4,7 @@ function esPalindromo() {
 
     var longitud = cadena.length;
 
-    for (var i = 0; i < longitud / 2; i++) {
+    for (i = 0; i < longitud / 2; i++) {
         if (cadena[i] !== cadena[longitud - 1 - i]) {
             alert("No es un palíndromo");
             return;
