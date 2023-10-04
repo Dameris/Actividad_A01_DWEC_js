@@ -5,7 +5,8 @@ function mostrarNumero() {
     if (!isNaN(numero)) {
         if (numero % 2 === 0) {
             alert("El número introducido es par");
-        } else {
+        }
+        else {
             alert("El número introducido es impar");
         }
     } 
